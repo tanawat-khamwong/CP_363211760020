@@ -11,6 +11,7 @@ public class BasicArray2D {
         number = inputData(number);
         //display data in array 2D
         displayArray(number);
+        //
 
     }
 
