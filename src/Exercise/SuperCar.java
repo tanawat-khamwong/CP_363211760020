@@ -1,56 +1,75 @@
 package Exercise;
+
 public class SuperCar {
-    private String CarBrand;
-    private String CarColor;
-    private int CarEngineSize;
-    private int MaxSpeed;
-    private String CountryOfOrigin;
-    public SuperCar(){}
-    public SuperCar(String n,String c,int s,int m,String o){
-        CarBrand = n;
-        CarColor = c;
-        CarEngineSize = s;
-        MaxSpeed = m;
-        CountryOfOrigin = o;
+    private String car_brand;
+    private String car_color;
+    private int car_engine_size;
+    private String max_speed;
+    private String country_of_origin;
+    //consttrutor
+
+    public SuperCar(String car_brand, String car_color, int car_engine_size,String  max_speed, String country_of_origin) {
+        this.car_brand = car_brand;
+        this.car_color = car_color;
+        this.car_engine_size = car_engine_size;
+        this.max_speed = max_speed;
+        this.country_of_origin = country_of_origin;
     }
-    public String getCarBrand (){
-        return CarBrand;
+
+    //getter and setter
+
+    public String getCar_brand() {
+        return car_brand;
     }
-    public void setCarBrand(String n){
-        CarBrand = n;
+
+    public void setCar_brand(String car_brand) {
+        this.car_brand = car_brand;
     }
-    public String getCarColor(){
-        return CarColor;
+
+    public String getCar_color() {
+        return car_color;
     }
-    public void setCarColor(String c) {
-        CarColor = c;
+
+    public void setCar_color(String car_color) {
+        this.car_color = car_color;
     }
-    public int getCarEngineSize(){
-        return CarEngineSize;
+
+    public int getCar_engine_size() {
+        return car_engine_size;
     }
-    public  void setCarEngineSize(int s){
-        CarEngineSize = s;
+
+    public void setCar_engine_size(int car_engine_size) {
+        this.car_engine_size = car_engine_size;
     }
-    public int getMaxSpeed(){
-        return MaxSpeed;
+
+    public String getMax_speed() {
+        return max_speed;
     }
-    public  void setMaxSpeed(int m){
-        MaxSpeed = m;
+
+    public void setMax_speed(String max_speed) {
+        this.max_speed = max_speed;
     }
-    public String getCountryOfOrigin(){
-        return CountryOfOrigin;
+
+    public String getCountry_of_origin() {
+        return country_of_origin;
     }
-    public void setCountryOfOrigin(String o) {
-        CountryOfOrigin = o;
+
+    public void setCountry_of_origin(String country_of_origin) {
+        this.country_of_origin = country_of_origin;
     }
+
+
+    //toString
+
+
     @Override
     public String toString() {
         return "SuperCar{" +
-                "CarBrand='" + CarBrand + '\'' +
-                ", CarColor='" + CarColor + '\'' +
-                ", CarEngineSize=" + CarEngineSize +
-                ", MaxSpeed=" + MaxSpeed +
-                ", CountryOfOrigin='" + CountryOfOrigin + '\'' +
+                "car_brand='" + car_brand + '\'' +
+                ", car_color='" + car_color + '\'' +
+                ", car_engine_size=" + car_engine_size +
+                ", max_speed=" + max_speed +
+                ", country_of_origin='" + country_of_origin + '\'' +
                 '}';
     }
 }
