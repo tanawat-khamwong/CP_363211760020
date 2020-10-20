@@ -1,5 +1,5 @@
 
-    package Exercise;
+    package Excercise;
 
 import java.util.Scanner;
 

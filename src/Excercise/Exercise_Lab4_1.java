@@ -3,7 +3,7 @@ import java.util.Scanner;
 // 1.Triangle = 0.5 * b * h
 // 2.Cone = ( PI * r * l ) + ( PI * r * r )
 // 3.Circle = 2 * PI * r
-public class Excercise_Lab4_1 {
+public class Exercise_Lab4_1 {
     public static  final  double PI = 3.141;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

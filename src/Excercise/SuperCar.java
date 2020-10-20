@@ -1,4 +1,4 @@
-package Exercise;
+package Excercise;
 
 public class SuperCar {
     private String car_brand;
