@@ -9,6 +9,10 @@ public class ExThrows {
             int r = divide(x,y);
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            //connect DB
+            //close connection
+            System.out.println("Test Finally");
         }
 
     }
